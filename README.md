@@ -1,16 +1,60 @@
-# React + Vite
+# FINCLARITY HUB SERVICES — Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Accurate Books. Clear Reports. Better Business Decisions.
 
-Currently, two official plugins are available:
+A modern, high-converting React + Vite web application built for **FINCLARITY HUB SERVICES**, providing QuickBooks bookkeeping and financial support for small businesses, startups, NGOs, freelancers, and growing organizations across East Africa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Executive Aesthetic & Visual Dashboard**: Dark navy (`#0B192C`), financial emerald green (`#059669`), and warm gold accents with financial dashboard previews.
+- **6 Detailed Core Services**: QuickBooks Bookkeeping, Bank Reconciliation, Financial Reporting, Bookkeeping Cleanup & Catch-Up, Small Business Support, and NGO/Project Expenditure Tracking.
+- **Multi-Region WhatsApp Routes**: Direct contextual WhatsApp links for Kenya (`+254 719 611 029`) and Uganda (`+256 789 873 376`).
+- **Interactive Lead Generation**: Consultation booking form with service category selection and confirmation state.
+- **Netlify SPA Compatibility**: Built-in `netlify.toml` and `public/_redirects` (`/* /index.html 200`) for seamless SPA routing.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- **Framework**: React 18 + Vite
+- **Icons**: `lucide-react`
+- **Styling**: Vanilla CSS (Custom properties, Glassmorphism, CSS Grid & Flexbox)
+- **Deployment**: Netlify Ready (`dist`)
+
+---
+
+## 💻 Local Development
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/mugaruranelson-cmd/finclarity.git
+   cd finclarity
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173` in your browser.
+
+4. **Build for Production**:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🌐 Deploying to Netlify
+
+1. Connect your GitHub repository to [Netlify](https://app.netlify.com).
+2. Set the build settings:
+   - **Build Command**: `npm run build`
+   - **Publish Directory**: `dist`
+3. Click **Deploy Site**. The included `netlify.toml` and `_redirects` will automatically handle routing rules.
